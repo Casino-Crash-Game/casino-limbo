@@ -27,8 +27,6 @@ Our platform is built with state-of-the-art technologies:
 
 ## 🚀 Getting Started
 
-- ### ***✈️ Live Demo***
-
 ### For Players
 
 Getting started with Casino Limbo is easy! Simply visit our website and create an account to start playing your favorite games.
@@ -51,7 +49,10 @@ Checkout video
 ## 🤝 Join Me
 
 I invite you to be part of this thrilling journey in online gaming! For more information about investment opportunities or business partnerships, please contact me:
-- ☎️ Telegram: ~~~ @cashblaze127 ~~~
+- ☎️ Telegram: 
+~~~ 
+@cashblaze127 
+~~~
 
 
 ## 📝 Conclusion
