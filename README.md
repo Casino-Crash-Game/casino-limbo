@@ -49,10 +49,10 @@ Checkout video
 
 
 ## 🤝 Join Me
-~~~
+
 I invite you to be part of this thrilling journey in online gaming! For more information about investment opportunities or business partnerships, please contact me:
-- ☎️ Telegram: @cashblaze127
-~~~
+- ☎️ Telegram: ~~~ @cashblaze127 ~~~
+
 
 ## 📝 Conclusion
 **Casino Limbo** is not just a game, it's an experience! With a focus on user engagement, security, and innovation, we are excited to lead the charge in redefining online gaming. Join us and be a part of this exciting adventure in the world of digital entertainment!
