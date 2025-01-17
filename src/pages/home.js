@@ -7,6 +7,7 @@ import { useEffect, useContext, useState } from "react";
 import { io } from "socket.io-client";
 import FundContext from "../context/FundContext";
 import axios from "axios";
+import { ContactMeTelegram } from "../components/cTelegram";
 
 export default function CSSGrid() {
   const { userId } = useContext(FundContext);
@@ -24,20 +25,23 @@ export default function CSSGrid() {
 
   useEffect(() => {
     if (userId !== 0 && socket) {
-      socket.emit('saveSocketId',{userId});
+      socket.emit("saveSocketId", { userId });
     }
   }, [userId, socket]);
   return (
-    <Grid container spacing={2} mt={2}>
-      <Grid item md={6} sm={12}>
-        <Content setMyBets={setMyBets} myBets={myBets} />
+    <Grid>
+      <Grid container spacing={2} mt={2}>
+        <Grid item md={6} sm={12}>
+          <Content setMyBets={setMyBets} myBets={myBets} />
+        </Grid>
+        <Grid item md={6} sx={{ display: { xs: "none", md: "block" } }}>
+          <Sidebar socket={socket} />
+        </Grid>
+        <Grid item md={12} xs={12}>
+          <BetHistory socket={socket} myBets={myBets} />
+        </Grid>
       </Grid>
-      <Grid item md={6} sx={{ display: { xs: "none", md: "block" } }}>
-        <Sidebar socket={socket} />
-      </Grid>
-      <Grid item md={12} xs={12}>
-        <BetHistory socket={socket} myBets={myBets} />
-      </Grid>
+      <ContactMeTelegram />
     </Grid>
   );
 }
